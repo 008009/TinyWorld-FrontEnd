@@ -14,12 +14,13 @@
 }
 
 .container {
-	max-width: 400px;
+	max-width: 450px;
     width: calc(100% - 88px);
     margin-bottom: 15vh;
     padding: 16px 24px 24px;
     background-color: #fafafa;
     border-radius: 2px;
+    position: absolute;
 }
 
 .mdl-shadow--24dp {
