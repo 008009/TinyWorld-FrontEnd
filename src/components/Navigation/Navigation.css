@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Satisfy|Syncopate');
+
+.gf{
+    font-family: 'Great Vibes', cursive;
+}
+
+.db {
+    display: block;
+}
+
+.ma{
+    margin-top: 5rem;
+}
+
+.black {
+    color: #000;
+}
+
+.f1 {
+    font-size: 5rem;
+}
+
+.dim {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+}
+

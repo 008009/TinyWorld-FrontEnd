@@ -1,0 +1,29 @@
+.form
+{
+    width:700px;
+    background: 
+        radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+        radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+    background-color: slategray;
+    background-size:75px 100px;
+}
+
+.p3{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 250;
+    line-height: 26px;
+}
+
+.mb{
+    margin-bottom: 10rem;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Coustard');
+
+.urlLink-gf{
+    font-family: 'Coustard', serif;
+    margin-top: -58px;
+}
