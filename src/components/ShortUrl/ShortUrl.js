@@ -8,7 +8,7 @@ class ShortUrl extends React.Component {
 	constructor(){
 		super();
 		this.state = {
-			copied:'',
+			copied: '',
 		}
 	}
 	onCopy =()=> {

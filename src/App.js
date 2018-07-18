@@ -148,18 +148,18 @@ class App extends Component {
   		this.setState({copyVerision: `08twd.com/${box.shortUrl}`});
   	}
 
-  	onCopy =()=>{
-  		this.setState({copy: true});
-  	}
-
   	onSubmitButton = () => {
-  		this.setState({route: 'showURL'});
-  		fetch('https://greve-vin-83976.herokuapp.com/api/urls',
-  		{ method:'post', 
-  		headers: {'Content-Type' : 'application/json'}, 
-  		body: JSON.stringify({ longUrl: this.state.input})})
-  		.then(response => response.json())
-		.then(data => this.displayUrl(this.showURL(data)))
+      if(this.state.input !== '') {
+        this.setState({route: 'showURL'});
+        fetch('https://greve-vin-83976.herokuapp.com/api/urls',
+          { method:'post', 
+            headers: {'Content-Type' : 'application/json'}, 
+            body: JSON.stringify({ longUrl: this.state.input})})
+        .then(response => response.json())
+        .then(data => this.displayUrl(this.showURL(data)))
+      }else{
+        this.setState({route: 'root'});
+      }
   	}
 
   	//done click
